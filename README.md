@@ -162,5 +162,6 @@ footer {
            <script src="main2.js"></script>
 
     <link rel="stylesheet" href="extermanal.css">
+                       <p> alhamdulilah</>                         
 </body>
 </html>
