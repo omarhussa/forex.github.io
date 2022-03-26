@@ -170,3 +170,223 @@ footer {
 
 </body>
 </html>
+                             
+                             
+                             
+                             body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: Oxygen;
+}
+/** HEADER **/
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+ 
+ #logo-img {
+ 	background:url() no-repeat;
+
+ 	width: 5px;
+ 	height: 5px;
+ 	margin: 10px 15px 10px 0;
+ }
+
+ .navbar-brand {
+ 	padding-top:25px;
+ }
+ .navbar-brand h1 { /*restaurant nam */
+ 	font-family: 'lora', serif;
+ 	color: #557c3e;
+ 	font-size: 1.5px;
+ 	text-transform: uppercase;
+ 	font-weight: bold;
+ 	text-shadow: 1px 1px 1px #222;
+ 	margin-top:0;
+ 	margin-bottom: 0;
+ 	line-height: .75;
+
+ }
+ .navbar-brand a:hover, .navbar-brand a:focus {
+ 	text-decoration: none;
+ }
+ .navbar-brand p { /*kosher cert */
+ 	color: #000;
+ 	text-transform: uppercase;
+ 	font-size: .7em;
+ 	margin-top: 15px;
+
+ }
+ .navbar-brand p span { /* star-k */
+ 	vertical-align: middle;
+ }
+
+ #nav-list {
+ 	margin-top: 10px;
+ }
+ #nav-list a {
+ 	color: #951ca9;
+ 	text-align: center;
+ }
+ #nav-list a:hover {
+ 	background-color: #e7e7e7;
+ }
+ #nav-lis a span {
+ 	font-size: 1.8em;
+ }
+ #phone {
+ 	margin-top: 5px;
+ }
+#phone a { /*phone number*/
+	text-align: right;
+	padding-bottom: 0;
+ }
+#phone div { /* we deliver */
+	color: #557c3e;
+	text-align: right;
+	padding-right: 15px;
+ }
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid blue;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -5px;
+}
+
+#menu-tile, #specials-tile {
+	height: 250px;
+	width: 100%;
+	margin-bottom- right:  15px;
+	position: relative;
+	border: 2px solid #3f0c1f;
+	overflow: hidden;
+}
+#menu-tile :hove, #specials-tile :hove, #map-tile.hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+
+
+#specials-tile, #menu-tile {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #3f0c1f;
+	overflow: hidden;
+}
+#specials-tile :hove, #menu-tile :hove, #map-tile.hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+
+
+#map-tile, #menu-tile {
+	height: 250px;
+	width: 100%;
+	margin-bottom: right 15px;
+	position: relative;
+	border: 2px solid #3f0c1f;
+	overflow: hidden;
+}
+#map-tile :hove, #menu-tile :hove, .hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile {
+	background: url(1.jpg) no-repeat;
+	background-position: center;
+}
+
+#specials-tile {
+	background: url(2.jpg) no-repeat;
+	background-position: center;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1,6em;
+	text-transform: uppercase;
+	background-color: blue;
+	color: #fff;
+	opacity: .8;
+}
+
+
+/* end header */
+/********** large divice only **********/
+@media (min-width: 1200px){
+	.container.jumbotron {
+		background: url('..images/') no-repeat;
+		height: 675px;
+		box-shadow: 0 0 50px #3f0c1f;
+		border: 2px solid #3f0c1f;
+	}
+}
+
+/**********medium devices only ********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+/*Header */
+#logo-img {
+	background: url('') no-repeat;
+	width: 0px;
+	height: 0px;
+	margin: 1px 1px 1px 0;
+}
+
+.container .jumbotron {
+	background: url() no-repeat;
+	height: 558px;
+	box-shadow: 0 0 50px #3f0c1f;
+	border: 2px solid #3f0c1f;
+
+}
+
+
+/********** small devices oniy **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (min-width: 768px) {
+/*WAXAA LAGU YEREEYA BOSISHINKA SAWIKA LADHIGA 
+/*}
+#menu-tile, #specials-tile {
+	width: 460px;
+	margin: 0 auto 15px;
+}
+
+/*Header */
+.navbar-brand {
+	padding-top: 10px;
+	height: 80px;
+}
+.navbar-brand h1 { /*Forex name */
+	padding-top: 10px;
+	font-size: 5vw; /* 1w = 1% of viewport width */
+ }
+ .navbar-brand p { /*kosher cert */
+ 	
+ 	font-size: .6em;
+ 	margin-top: 12px;
+ }
+.navbar-brand p img {/*star-k */
+	height: 20px;
+}
+#collapsable-nav a {
+	font-size: 1.1em;
+}
+#collapsable-nav a span {
+	font-size: 1em;
+	margin-right: 5px;
+}
